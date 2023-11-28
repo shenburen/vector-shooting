@@ -13,7 +13,7 @@ export default class CreateScene {
       0.1,
       10000
     );
-    this.Camera.position.set(-100, 100, 0);
+    this.Camera.position.set(0, 0, 10);
 
     this.Ambient = new THREE.AmbientLight();
 
